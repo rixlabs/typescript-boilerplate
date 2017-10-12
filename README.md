@@ -1,5 +1,7 @@
 # JT - TypeScript Boilerplate
-Webpack + TypeScript + SCSS
+![webpack](https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/225/thumb/webpacklogo.png)
+![typescript](http://budiirawan.com/wp-content/uploads/2017/01/typescript-logo.png)
+![jest](https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/940/thumb/jestlogo.png?1499962548)
 
 ## Getting started:
 TypeScript: https://www.typescriptlang.org/index.html#download-links
