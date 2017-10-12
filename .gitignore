@@ -36,6 +36,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Using yarn, no need for npm package lock
+package-lock.json
+
 # Typescript v1 declaration files
 typings/
 
@@ -57,5 +60,12 @@ typings/
 # dotenv environment variables file
 .env
 
+#IDE
+.vscode/*
+
 # macos
 .DS_Store
+
+# build files are not necessary
+dist/js/
+

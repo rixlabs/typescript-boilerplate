@@ -6,8 +6,8 @@
   "author": "Jose Tovar <tmjoseantonio@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "tsc": "tsc app/**/*.ts --target ES6 --module system --outFile dist/js/bundle.js",
-    "autotsc": "tsc --watch app/**/*.ts --target ES6 --module system  --outFile dist/bundle.js",
+    "tsc": "tsc app/**/*.ts --target ES6 --module system --outFile dist/js/bundle.js && yarn run test",
+    "autotsc": "tsc --watch app/**/*.ts --target ES6 --module system  --outFile dist/bundle.js && yarn run test",
     "build-dev": "webpack -d && cp app/index.html dist/index.html && webpack-dev-server --hot --inline --colors --progress --content-base app/",
     "build-prod": "webpack -p && cp app/index.html dist/index.html",
     "test": "jest"
