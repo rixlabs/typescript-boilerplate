@@ -62,3 +62,6 @@ typings/
 
 # macos
 .DS_Store
+
+dist/js/
+package-lock.json
