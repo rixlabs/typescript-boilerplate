@@ -6,12 +6,14 @@
   "author": "Jose Tovar <tmjoseantonio@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "tsc": "tsc app/ts/*.ts --target ES5 --outFile dist/js/bundle.js",
-    "autotsc": "tsc --watch app/*.ts --target ES5 --outFile dist/bundle.js",
+    "tsc": "tsc app/**/*.ts --target ES6 --module system --outFile dist/js/bundle.js",
+    "autotsc": "tsc --watch app/**/*.ts --target ES6 --module system  --outFile dist/bundle.js",
     "build-dev": "webpack -d && cp app/index.html dist/index.html && webpack-dev-server --hot --inline --colors --progress --content-base app/",
-    "build-prod": "webpack -p && cp app/index.html dist/index.html"
+    "build-prod": "webpack -p && cp app/index.html dist/index.html",
+    "test": "jest"
   },
   "dependencies": {
+    "@types/jest": "^21.1.2",
     "autoprefixer": "^7.1.4",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.0",
@@ -19,9 +21,23 @@
     "sass-loader": "^6.0.6",
     "sass-resources-loader": "^1.3.1",
     "style-loader": "^0.18.2",
+    "ts-jest": "^21.1.2",
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.3",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
   }
 }

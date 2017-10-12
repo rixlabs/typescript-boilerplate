@@ -19,6 +19,8 @@ yarn run autotsc
 # Webpack build tasks
 yarn run build-dev
 yarn run build-prod
+# Run tests
+yarn test
 ```
 
 ### After basic install
