@@ -2,7 +2,8 @@
 Webpack + TypeScript + SCSS
 
 ## Getting started:
-Install TypeScript: https://www.typescriptlang.org/index.html#download-links
+TypeScript: https://www.typescriptlang.org/index.html#download-links
+Yarn https://yarnpkg.com/en/
 
 Install project dependencies:
 ```shell
@@ -11,21 +12,20 @@ yarn install
 
 ### Tasks:
 ```shell
+# Run a TypeScript check
 yarn run tsc 
+# Run a persistent TypeScript check process
 yarn run autotsc
+# Webpack build tasks
 yarn run build-dev
 yarn run build-prod
 ```
 
-#### tsc
-Run a TypeScript check
+### After basic install
+Add your scripts and styles to the `app/` folder.
 
-#### autotsc
-Run a persistent TypeScript check process
-
-#### build-dev
-Generates a local-ready 
-
+### TODO:
+Add a JavaScript testing tool.
 
 In the browser open the following url: http://0.0.0.0:8888
 
