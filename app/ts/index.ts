@@ -1,3 +1,5 @@
 import '../scss/style.scss';
 
-console.log('yeah!');
+const message:string = 'yeah!';
+
+console.log(message);
