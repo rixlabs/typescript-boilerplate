@@ -1,4 +1,4 @@
-# JT - TypeScript Boilerplate
+# TypeScript Project Boilerplate
 ![webpack](http://tmjoseantonio.com/webpack.png)
 ![typescript](http://tmjoseantonio.com/typescript.png)
 ![jest](http://tmjoseantonio.com/jest.png)
