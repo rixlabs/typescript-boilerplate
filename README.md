@@ -35,5 +35,8 @@ Add your scripts and styles to the `app/` folder.
 In the browser open the following url: http://0.0.0.0:8888
 
 ## About the author:
+It seems I have inherited this one from:
 [Jose Tovar](http://tmjoseantonio.com)
 *Web Engineer, husband, gamer and a terrible musician*
+
+Thnks for the good work
